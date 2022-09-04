@@ -11,6 +11,8 @@ ios quantumult x， 模拟假条列表、凭证、详细信息
 #模拟假条凭证
 [rewrite_local]
 ^https:\/\/gw\.wozaixiaoyuan\.com\/leave2\/mobile\/student\/leave\/getProof\?leavesId=[0-9]+ url script-response-body getProof.js
+
 #模拟假条详细信息
+[rewrite_local]
 ^https?:\/\/gw\.wozaixiaoyuan\.com\/leave2\/mobile\/student\/leave\/getLeavesInfo\?leavesId=[0-9]+ url script-response-body getLeavesInfo.js
 ```
