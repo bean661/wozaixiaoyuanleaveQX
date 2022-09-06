@@ -55,8 +55,8 @@ logoUrl = ""
 //不指定则默认开始时间为当前 前1小时，结束时间当前 后2小时，不同时间打开会改变
 start = ""
 end = ""
-//请假一次  进行中(点凭证可以看到二维码)的时候抓包 获取qrcode 格式： leave2@xxxxxx
-qrcode="leave2@xxxxxx"
+
+qrcode="leave2@a9501780022e4edf9771973afd1e6dec"
 
 var time = new Date()
 time.setMinutes(0)
